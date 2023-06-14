@@ -1,9 +1,10 @@
 import "./AreaCognitiva.css";
-import React, { useState, useEffect } from "react";
+
+ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 
-const AreaFisica = () => {
+const AreaAfectiva = () => {
 
     const [name, setName] = useState("");
     const [lastName, setLastName] = useState("");
@@ -25,12 +26,12 @@ const AreaFisica = () => {
   return(
     <div>
 
-        <h1>Física</h1>
+        <h1>Afectiva</h1>
         <div className="resumenArea">
             <div className="left">
-                <h2>Bienestar del cuerpo y el óptimo funcionamiento del organismo, que se encuentran en buen estado físico, mental, emocional.</h2>
-                <p>¡Bienvenido al área físcia!</p>
-                <p>En esta área recordaremos la importancia del aspecto físico para llevar una vida saludable y plena.</p>
+                <h2>Capacidad de reacción que presenta una persona ante los estímulos que vengan del medio interno o externo, ya sean en sentimientos o emociones.</h2>
+                <p>¡Bienvenido al área afectiva!</p>
+                <p>En esta área recordaremos la importancia del aspecto afectivo en nuestro día a día para llevar una vida saludable y plena.</p>
                 <p>Si deseas continuar, sigue moviéndote hacia abajo</p>
 
                 <h2>¿Qué esperar?</h2>
@@ -38,7 +39,7 @@ const AreaFisica = () => {
             </div>
 
             <div className="right">
-                <img src="https://banner2.cleanpng.com/20180525/bja/kisspng-keiko-aikawa-hot-yoga-meditation-body-yoga-man-5b08d8413368c1.6145502715273063052106.jpg" alt="Imagen Cognición"></img>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F509%2F092%2Flarge_2x%2Falzheimers-disease-neurological-brain-cognition-line-style-icon-free-vector.jpg&f=1&nofb=1&ipt=1bf05c31bba48db90c1dd7b35d4b74dc70cb034a8ba1cd9b288a4383b068c9bf&ipo=images" alt="Imagen Cognición"></img>
             </div>
             
         </div>
@@ -50,35 +51,10 @@ const AreaFisica = () => {
             <div className="left">
               <button> 
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fcerebro-en-un-fondo-blanco-silueta-linear-de-los-dos-hemisferios-ilustraci-n-del-vector-148513433.jpg&f=1&nofb=1&ipt=7daad160be1f39fed947faacc534537e92d955409158d5e50459e7e0f932e481&ipo=images" alt="Imagen MMSE"></img>
-                <h2>Sarc-F</h2>
+                <h2>GDS</h2>
                 <p style={{ margin: 0 }}>Prueba bla bla bla</p>
               </button>
             </div>
-
-            <div className="right">
-              <button> 
-                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftusimagenesde.com%2Fwp-content%2Fuploads%2F2017%2F02%2Freloj-1.jpg&f=1&nofb=1&ipt=58d26cf117bb2f4d654675ddcbe88b29f9780efce525ddd190f018534777e3bb&ipo=images" alt="Imagen Reloj"></img>
-                <h2>SSPB</h2>
-                <p style={{ margin: 0 }}>Prueba bla bla bla</p>
-              </button> 
-            </div>
-
-            <div className="right">
-              <button> 
-                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftusimagenesde.com%2Fwp-content%2Fuploads%2F2017%2F02%2Freloj-1.jpg&f=1&nofb=1&ipt=58d26cf117bb2f4d654675ddcbe88b29f9780efce525ddd190f018534777e3bb&ipo=images" alt="Imagen Reloj"></img>
-                <h2>Circ-Pantorrilla</h2>
-                <p style={{ margin: 0 }}>Prueba bla bla bla</p>
-              </button> 
-            </div>
-
-            <div className="right">
-              <button> 
-                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftusimagenesde.com%2Fwp-content%2Fuploads%2F2017%2F02%2Freloj-1.jpg&f=1&nofb=1&ipt=58d26cf117bb2f4d654675ddcbe88b29f9780efce525ddd190f018534777e3bb&ipo=images" alt="Imagen Reloj"></img>
-                <h2>Up & Go</h2>
-                <p style={{ margin: 0 }}>Prueba bla bla bla</p>
-              </button> 
-            </div>
-            
         </div>
 
         <br></br><br></br><br></br><br></br><br></br>
@@ -174,4 +150,4 @@ const AreaFisica = () => {
      );
   }
 
-export default AreaFisica;
+export default AreaAfectiva;

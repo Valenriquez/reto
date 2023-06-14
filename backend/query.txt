@@ -1,0 +1,3 @@
+SELECT CONCAT(p.first_name, ' ', p.last_name) AS full_name
+FROM person AS p
+JOIN pam AS pam ON pam.person_id = p.person_id;
