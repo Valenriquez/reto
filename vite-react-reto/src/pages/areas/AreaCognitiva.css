@@ -1,0 +1,118 @@
+h1 {
+    margin: 20px;
+    font-size: 50px;
+    font-family: Georgia, serif;
+}
+
+p {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.resumenArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: 80px;
+}
+
+.resumenArea img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.resumenArea h2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.resumenArea p {
+    text-align: left;
+    font-weight: light;
+}
+
+
+.pruebas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: 80px;
+}
+
+.pruebas img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.pruebas h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+
+.paraContactar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+.left,
+.center,
+.right {
+    flex: 1;
+    margin-left: 10px;
+    background-color: white;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: rgb(238, 221, 200);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.right button {
+    background: rgb(238, 221, 200);
+    color: rgb(33, 21, 7);
+}
+  
+
+.profile-container {
+    text-align: center;
+}
+  
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+  
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.profile-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
